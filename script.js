@@ -13,9 +13,10 @@ function tooglemode() {
     alt.setAttribute(
       "foto de Pedro sorrindo, usando camisa branca e fundo escuro"
     );
-  } else {
+  } 
+  else {
     // se tiver sem light mode, manter a imagem normal
-    img.setAttribute("src", "./assets/avatar.png");
+    img.setAttribute("src", "./assets/Avatar.png")
 
     alt.setAttribute(
       "foto de Pedro sorrindo usando camiseta preta, em um fundo branco"
